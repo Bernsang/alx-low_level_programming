@@ -11,7 +11,7 @@ int main(void)
 {
 	char low;
 
-	for (low = 'a'; low <= 'z' low++ | grep - v[qe])
+	for (low = 'a'; low <= 'z'; low++ | grep - v[qe])
 	{
 		putchar (low);
 	}
