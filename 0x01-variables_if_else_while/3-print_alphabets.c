@@ -8,7 +8,7 @@
   * Returns: Always 0 (Success)
   */
 
-int main()
+int main(void)
 {
 	char cases;
 
@@ -21,5 +21,7 @@ for (cases = 'A'; cases <= 'Z'; cases++)
 {
 	putchar (cases);
 }
+
 return (0);
+
 }
