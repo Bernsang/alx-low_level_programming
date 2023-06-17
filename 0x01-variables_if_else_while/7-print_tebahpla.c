@@ -7,11 +7,11 @@ int main(void)
 {
 	char low;
 
-	for (low = 'z'; low = 'a'; low--)
+	for (low = 'z'; low >= 'a'; low--)
 	{
-		pitcher(low);
+		putchar(low);
 	}
-	pitcher('\n');
+	putchar('\n');
 	return (0);
 }
 
