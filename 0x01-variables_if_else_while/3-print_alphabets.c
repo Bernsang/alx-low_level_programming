@@ -19,7 +19,7 @@ int main(void)
 
 for (cases = 'A'; cases <= 'Z'; cases++)
 {
-	putchar (cases)
+	putchar (cases);
 }
-return (0)
+return (0);
 }
