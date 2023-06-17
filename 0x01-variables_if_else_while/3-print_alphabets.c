@@ -21,7 +21,7 @@ for (cases = 'A'; cases <= 'Z'; cases++)
 {
 	putchar (cases);
 }
-
+putchar ('\n');
 return (0);
 
 }
