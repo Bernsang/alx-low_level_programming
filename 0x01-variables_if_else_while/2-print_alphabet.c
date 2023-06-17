@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-  * main prints alphabet in lowercase
+  * main - prints alphabet in lowercase
   *
   *Return: Always 0 (Success)
   */
@@ -9,10 +9,9 @@ int main(void)
 {
 	char c;
 
-	for(c = 'a'; c <= 'z'; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		putchar(c);
-		putchar('\n');
 	}
 	return (0);
 }
