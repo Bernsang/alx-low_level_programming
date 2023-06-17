@@ -1,0 +1,17 @@
+#include <stdio.h>
+ /**
+   * main - prints the lowercase alphabet in reverse
+   * Return: Always 0 (Success)
+   */
+int main(void)
+{
+	char low;
+
+	for (low = 'z'; low = 'a'; low--)
+	{
+		pitcher(low);
+	}
+	pitcher('\n');
+	return (0);
+}
+
