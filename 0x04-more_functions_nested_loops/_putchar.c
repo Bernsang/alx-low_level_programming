@@ -5,7 +5,7 @@
   * @c print character
   *
   * Return: 1 on Success
-  * Return: -1 on error
+  * On error return -1 and set errno appropriately
   */
 int _putchar(char c)
 {
