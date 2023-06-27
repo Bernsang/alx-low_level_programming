@@ -27,5 +27,4 @@ void puts2(char *str)
 	}
 }
 	_putchar ('\0');
-	return (string);
 	}
