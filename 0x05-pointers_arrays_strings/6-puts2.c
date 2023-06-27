@@ -27,5 +27,5 @@ void puts2(char *str)
 	}
 }
 	_putchar ('\0');
-	return (character of strings)
+	return (strings);
 	}
