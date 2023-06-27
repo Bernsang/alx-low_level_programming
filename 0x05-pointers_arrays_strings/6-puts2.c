@@ -10,7 +10,7 @@ void puts2(char *str)
 {
 	int a = 0;
 	int b = 0;
-	char *y = str;
+	char *str = y;
 	int c;
 
 	while (*y != '\0')
