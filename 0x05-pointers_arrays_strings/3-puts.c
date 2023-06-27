@@ -3,7 +3,7 @@
 /**
   * _put - prints a string, followed by a new line, to stdout
   *
-  * @str: string
+  * @str: string to print
   * Return: string then a new line
   */
 void _puts(char *str)
