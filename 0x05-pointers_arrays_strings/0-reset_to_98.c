@@ -6,8 +6,12 @@
  * Return: n
  */
 int main(void)
-{      
+{
 	int n;
 
-	n = 98;
+		n = 402;
+		printf("%d\n", n);
+		reset_to_98(&n);
+		printf("%d\n", n);
+		return (n);
 }
