@@ -4,7 +4,7 @@
  * puts2 - prints every other character of a string, starting with the first
  * character, followed by a new line
  * @str: string
- *Return: character of a string
+ *Return: string
  */
 void puts2(char *str)
 {
@@ -27,5 +27,5 @@ void puts2(char *str)
 	}
 }
 	_putchar ('\0');
-	return (strings);
+	return (string);
 	}
