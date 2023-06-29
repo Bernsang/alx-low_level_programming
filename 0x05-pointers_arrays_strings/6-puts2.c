@@ -4,27 +4,20 @@
  * puts2 - prints every other character of a string, starting with the first
  * character, followed by a new line
  * @str: input
- *Return: string
+ *Return: print  string
  */
 void puts2(char *str)
 {
-	int a = 0;
+	int a;
 	int b = 0;
-	char *y = str;
-	int c;
 
-	while (*y != '\0')
-{
-	y++;
-	a++;
-}
-	b = a - 1;
-	for (c = 0; c <= b; c++)
-{
-	if (0 % 2 == 0)
+	while (str[b] != '\0')
 	{
-		_putchar(str[c]);
+	b++;
 	}
+	for (a = 0; a < b; a+= 2)
+	{
+	_putchar(str[a]);
+	}
+	_putchar ('\n');
 }
-	_putchar ('\0');
-	}
