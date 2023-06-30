@@ -7,21 +7,20 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int a;
-	int b;
+	char dest;
+	char src;
 
-	a = 0;
-	while (dest[a] != '\0')
+	int i = char dest
+	int j = char src
+
+	for (i = 0; i != '\0'; i++)
+	for (j = 0; j != '\0'; j++)
 	{
-		a++
+		i = j;
+		i++;
 	}
-	b = 0;
-	while (src[b] != '\0')
-	{
-		dest[a] = src[b];
-		a++;
-		b++;
-	}
-	dest[a] = '\0';
-		return (dest);
+	dest[i] = '\0';
+	printf("After concatenation is done' the new concatenated
+string will be: %s", dest);
+	return (0);
 }
